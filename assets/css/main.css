@@ -1,0 +1,85 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.btn-auth {
+  @apply w-full bg-violet-500 text-white font-bold py-3 px-6 shadow-xl rounded-lg
+}
+.btn-auth:hover {
+  @apply shadow-none bg-violet-600
+}
+.btn-auth-sm {
+  @apply bg-violet-500 text-white font-bold py-3 px-6 shadow-xl rounded-lg
+}
+.btn-auth-sm:hover {
+  @apply shadow-none bg-violet-600
+}
+.btn-auth:focus,
+.btn-auth-sm:focus,
+.input-form:focus,
+.btn-outline-auth:focus,
+.btn-outline-auth-sm:focus,
+.btn-waiting:focus,
+.btn-done:focus,
+.btn-next:focus {
+  @apply outline-none
+}
+.input-form {
+  @apply w-full py-3 px-3 text-gray-700 text-sm mb-2 leading-tight border-b-2
+}
+.btn-outline-auth {
+  @apply border border-violet-500 text-violet-700 py-3 px-6 shadow-xl cursor-pointer rounded-lg
+}
+.btn-outline-auth-sm {
+  @apply border border-violet-500 text-violet-700 py-1 px-2 shadow-xl cursor-pointer rounded-lg
+}
+.btn-outline-auth:hover {
+  @apply shadow-none
+}
+.text-description {
+  @apply text-sm text-gray-600 my-2
+}
+.text-description-sm {
+  @apply text-xs text-gray-600 my-2
+}
+.img-profile {
+  @apply border-2 border-solid border-violet-600 rounded-full p-1
+}
+.img-destination {
+  @apply border-2 border-solid rounded-full w-24 h-24 my-2 object-cover
+}
+.btn-waiting {
+  @apply bg-orange-500 text-white py-2 px-4 rounded-md
+}
+.btn-waiting:hover {
+  @apply bg-orange-600
+}
+.btn-done {
+  @apply bg-green-500 text-white py-2 px-4 rounded-md
+}
+.btn-done:hover {
+  @apply bg-green-600
+}
+.search-box {
+  @apply bg-gray-200 text-gray-800 rounded-md inline-flex items-center
+}
+.search-box:hover {
+  @apply bg-gray-300
+}
+.btn-next {
+  @apply bg-white text-gray-800 font-bold py-2 px-4 rounded-lg
+}
+.btn-next:hover {
+  @apply bg-gray-400
+}
+.text-tracking {
+  @apply text-xs text-violet-600 tracking-widest uppercase mb-2
+}
+.image-trending:hover {
+  box-shadow: 20px -20px rgba(115, 115, 115, 0.65),
+              40px -40px rgba(196, 196, 196, 0.65);
+  margin: 30px 0 -30px -20px;
+  transition: all .4s ease;
+}
