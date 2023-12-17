@@ -17,16 +17,16 @@
       <b class="text-tracking mb-2">Services</b>
       <p class="font-bold text-xl mb-5">Our Services</p>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-items-center mb-20">
-        <nuxt-link to="/">
+        <nuxt-link to="/flightdetail">
           <img src="../assets/img/ANC.png" alt="trending" class="image-trending rounded-3xl lg:w-52">
         </nuxt-link>
-        <nuxt-link to="/">
+        <nuxt-link to="/flightdetail">
           <img src="../assets/img/INC.png" alt="trending" class="image-trending rounded-3xl lg:w-52">
         </nuxt-link>
-        <nuxt-link to="/">
+        <nuxt-link to="/flightdetail">
           <img src="../assets/img/PNC.png" alt="trending" class="image-trending rounded-3xl lg:w-52">
         </nuxt-link>
-        <nuxt-link to="/">
+        <nuxt-link to="/flightdetail">
           <img src="../assets/img/KB.png" alt="trending" class="image-trending flex lg:w-52 md:hidden lg:flex rounded-3xl">
         </nuxt-link>
       </div>

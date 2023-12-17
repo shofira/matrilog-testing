@@ -21,9 +21,9 @@
         </div>
         <div class="flex flex-col lg:flex-row lg:items-center lg:space-x-8 font-bold mb-3">
           <nuxt-link to="/flight" class="block py-2">Find Patient</nuxt-link>
-          <nuxt-link to="/mybooking" class="block py-2">BPJS</nuxt-link>
-          <nuxt-link to="/mybooking" class="block py-2">Schedule</nuxt-link>
-          <nuxt-link to="/mybooking" class="block py-2">Our Teams</nuxt-link>
+          <nuxt-link to="/" class="block py-2">BPJS</nuxt-link>
+          <nuxt-link to="/" class="block py-2">Schedule</nuxt-link>
+          <nuxt-link to="/" class="block py-2">Our Teams</nuxt-link>
         </div>
 
         <!-- Condition -->
