@@ -15,30 +15,30 @@
               <div class="my-3">
                 <b>Contact</b>
                 <p class="text-description-sm">Email</p>
-                <input class="input-form" type="email" placeholder="mikeFlight@ankasa.com">
+                <input class="input-form" type="email" placeholder="midwife@matrilog.com">
                 <p class="text-description-sm">Phone Number</p>
                 <input class="input-form" type="number" placeholder="+62 78237595">
                 <div class="flex justify-end">
                   <b class="text-blue-600">
                     Account Settings
                   </b>
-                  <Icons type='button-right'/>
                 </div>
               </div>
               <!-- Right -->
               <div class="my-3">
                 <b>Biodata</b>
                 <p class="text-description-sm">Username</p>
-                <input class="input-form" type="text" placeholder="Mike Kowalski">
+                <input class="input-form" type="text" placeholder="Nadine Kowalski">
                 <p class="text-description-sm">City</p>
                 <select class="input-form">
                   <option selected disabled>Medan</option>
+                  <option selected disabled>Bogor</option>
                 </select>
                 <p class="text-description-sm">Address</p>
                 <input class="input-form" type="text" placeholder="Medan, Indonesia">
-                <p class="text-description-sm">Post Code</p>
+                <p class="text-description-sm">STR</p>
                 <input class="input-form" type="text" placeholder="55555">
-                <button class="btn-auth mt-8">Save</button>
+                <button @click="update" class="btn-auth mt-8">Save</button>
               </div>
             </div>
 
@@ -49,3 +49,21 @@
     <Footer />
   </div>
 </template>
+
+<script>
+import Swal from 'sweetalert2'
+
+export default {
+  name: 'UpdateProfile',
+  methods: {
+    update() {
+      Swal.fire(
+        'Update',
+        'Your Profile Saved',
+        'success'
+      )
+      this.$router.push('/profile')
+    }
+  }
+}
+</script>

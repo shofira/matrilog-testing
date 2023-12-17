@@ -32,7 +32,7 @@
             <img src="../assets/img/message.png" alt="message" class="h-4 w-4">
             <img src="../assets/img/bell.png" alt="notification" class="h-5 w-4">
             <nuxt-link to="/profile">
-              <img src="../assets/img/profile.png" alt="profile" class="block py-2 px-4 w-4/5 img-profile">
+              <img src="../assets/img/person1.jpg" alt="profile" class="block py-2 px-2 h-12 w-12 img-profile">
             </nuxt-link>
           </div>
           <div v-else>
