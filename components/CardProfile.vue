@@ -8,7 +8,7 @@
             <input type="file" class="hidden">
             Select Photo
           </button>
-          <h3 class="text-lg font-bold">Nadine Kowalski</h3>
+          <h3 class="text-lg font-bold">Jasmine Kowalski</h3>
           <p class="text-description">2th working</p>
         </div>
         <div class="container bg-violet-500 text-white mx-auto my-3 px-4 py-3 rounded-lg shadow">

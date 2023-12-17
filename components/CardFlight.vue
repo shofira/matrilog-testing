@@ -2,8 +2,8 @@
   <div>
     <div class="flex justify-between my-5 font-bold">
       <div class="flex justify-between items-center">
-        <h4 class="text-xl">Select Ticket</h4>
-        <p class="text-gray-700 text-sm">&nbsp; (6 flight found)</p>
+        <h4 class="text-xl">Select Patient</h4>
+        <p class="text-gray-700 text-sm">&nbsp; (3 patient found)</p>
       </div>
       <div class="flex justify-between items-center">
         <p class="text-sm mr-2">Sort by</p>
@@ -12,126 +12,54 @@
     </div>
     <div class="w-full bg-white rounded-lg shadow-lg mt-8 md:mt-0">
       <div class="px-6 py-4">
-        <div class="flex items-center space-x-5 mb-6">
-          <img src="../assets/img/garuda.png" alt="airline">
-          <b class="text-gray-700">Garuda Indonesia</b>
-        </div>
+        <b class="text-gray-700">Ny. Tessa Salsabila</b>
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 items-center space-x-5 my-3">
-          <div class="flex space-x-5 items-center">
-            <div>
-              <b class="text-xl">IDN</b>
-              <p class="text-description text-xs">12:33</p>
-            </div>
-            <img src="../assets/img/greysmallplane.png" alt="plane to">
-            <div>
-              <b class="text-xl">JPN</b>
-              <p class="text-description text-xs">15:21</p>
-            </div>
-          </div>
-
+          <b class="text-xl">ANC</b>
+          <p class="text-gray-500 text-sm hidden md:flex justify-center"> Bidan Yurike</p>
           <div class="text-description text-center hidden sm:block">
-            <b>3 hours 11 minutes</b>
-            <p>(1 transit)</p>
-          </div>
-          <div class="hidden md:flex space-x-5 justify-center">
-            <img src="../assets/img/bag.png" alt="luggage">
-            <img src="../assets/img/food.png" alt="meal">
-            <img src="../assets/img/wifi.png" alt="wifi">
+            <b>Monday, 18 Dec '23'</b>
+            <p>12:33</p>
           </div>
           <p class="text-blue-500 text-sm hidden md:flex justify-center">
-            $ 2,00/pax
+            Rp. 70.000,00
           </p>
           <button class="btn-auth-sm" @click="selectTicketing">Select</button>
-        </div>
-        <div class="flex items-center space-x-5 text-sm my-3">
-          <nuxt-link to="/bookingdetail" class="font-bold text-blue-600 flex">
-            View Details
-            <Icons type='button-bottom' />
-          </nuxt-link>
         </div>
       </div>
     </div>
 
-    <div class="w-full bg-white rounded-lg shadow-lg mt-8">
+    <div class="w-full bg-white rounded-lg shadow-lg mt-8 mt-3">
       <div class="px-6 py-4">
-        <div class="flex items-center space-x-5 mb-6">
-          <img src="../assets/img/lion_air.png" alt="airline">
-          <b class="text-gray-700">Lion Air</b>
-        </div>
+        <b class="text-gray-700">Ny. Moana Ranger</b>
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 items-center space-x-5 my-3">
-          <div class="flex space-x-5 items-center">
-            <div>
-              <b class="text-xl">IDN</b>
-              <p class="text-description text-xs">12:33</p>
-            </div>
-            <img src="../assets/img/greysmallplane.png" alt="plane to">
-            <div>
-              <b class="text-xl">JPN</b>
-              <p class="text-description text-xs">15:21</p>
-            </div>
-          </div>
-
+          <b class="text-xl">Contraseptive</b>
+          <p class="text-gray-500 text-sm hidden md:flex justify-center"> Bidan Yurike</p>
           <div class="text-description text-center hidden sm:block">
-            <b>3 hours 11 minutes</b>
-            <p>(1 transit)</p>
-          </div>
-          <div class="hidden md:flex space-x-5 justify-center">
-            <img src="../assets/img/bag.png" alt="luggage">
-            <img src="../assets/img/food.png" alt="meal">
-            <img src="../assets/img/wifi.png" alt="wifi">
+            <b>Monday, 22 Dec '23'</b>
+            <p>13:33</p>
           </div>
           <p class="text-blue-500 text-sm hidden md:flex justify-center">
-            $ 2,00/pax
+            Rp. 30.000,00
           </p>
           <button class="btn-auth-sm" @click="selectTicketing">Select</button>
-        </div>
-        <div class="flex items-center space-x-5 text-sm my-3">
-          <nuxt-link to="/bookingdetail" class="font-bold text-blue-600 flex">
-            View Details
-            <Icons type='button-bottom' />
-          </nuxt-link>
         </div>
       </div>
     </div>
 
-    <div class="w-full bg-white rounded-lg shadow-lg mt-8">
+    <div class="w-full bg-white rounded-lg shadow-lg mt-8 my-3">
       <div class="px-6 py-4">
-        <div class="flex items-center space-x-5 mb-6">
-          <img src="../assets/img/air_asia.png" alt="airline">
-          <b class="text-gray-700">Air Asia</b>
-        </div>
+        <b class="text-gray-700">Ny. Savira Frans</b>
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 items-center space-x-5 my-3">
-          <div class="flex space-x-5 items-center">
-            <div>
-              <b class="text-xl">IDN</b>
-              <p class="text-description text-xs">12:33</p>
-            </div>
-            <img src="../assets/img/greysmallplane.png" alt="plane to">
-            <div>
-              <b class="text-xl">JPN</b>
-              <p class="text-description text-xs">15:21</p>
-            </div>
-          </div>
-
+          <b class="text-xl">INC</b>
+          <p class="text-gray-500 text-sm hidden md:flex justify-center"> Bidan Yasmine</p>
           <div class="text-description text-center hidden sm:block">
-            <b>3 hours 11 minutes</b>
-            <p>(1 transit)</p>
-          </div>
-          <div class="hidden md:flex space-x-5 justify-center">
-            <img src="../assets/img/bag.png" alt="luggage">
-            <img src="../assets/img/food.png" alt="meal">
-            <img src="../assets/img/wifi.png" alt="wifi">
+            <b>Monday, 18 Dec '23'</b>
+            <p>12:33</p>
           </div>
           <p class="text-blue-500 text-sm hidden md:flex justify-center">
-            $ 2,00/pax
+            Rp. 987.000,00
           </p>
           <button class="btn-auth-sm" @click="selectTicketing">Select</button>
-        </div>
-        <div class="flex items-center space-x-5 text-sm my-3">
-          <nuxt-link to="/bookingdetail" class="font-bold text-blue-600 flex">
-            View Details
-            <Icons type='button-bottom' />
-          </nuxt-link>
         </div>
       </div>
     </div>
